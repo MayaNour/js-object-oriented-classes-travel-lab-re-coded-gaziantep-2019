@@ -20,6 +20,8 @@ class Route{
   blocksTravelled(){
     let v = this.endingLocation.vertical - this.beginningLocation.vertical;
     
-    let h = eastWest.indexOf(this.endingLocation.)
+    let h = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal);
+    
+    return h + v;
   }
 }
