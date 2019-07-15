@@ -25,8 +25,14 @@ class Route{
     return h + v;
   }
   
-  estimatedTime(){
+  estimatedTime(peakHours){
+    let blocks = blocksTravelled();
     
+    if(peakHours){
+      return blocks / 2;
+    }
+    
+    return blocks / 3;
   }
 }
 
