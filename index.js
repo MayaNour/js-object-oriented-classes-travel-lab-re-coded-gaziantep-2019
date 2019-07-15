@@ -18,6 +18,8 @@ class Route{
   }
   
   blocksTravelled(){
-    let v = this.beginningLocation
+    let v = this.endingLocation.vertical - this.beginningLocation.vertical;
+    
+    let h = eastWest
   }
 }
