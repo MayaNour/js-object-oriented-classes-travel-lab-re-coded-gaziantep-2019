@@ -25,7 +25,9 @@ class Route{
     return h + v;
   }
   
-  
+  estimatedTime(){
+    
+  }
 }
 
 let eastWest = [
