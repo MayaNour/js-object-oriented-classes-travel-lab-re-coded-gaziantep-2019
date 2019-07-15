@@ -18,6 +18,6 @@ class Route{
   }
   
   blocksTravelled(){
-    let 
+    let v = this.beginningLocation
   }
 }
