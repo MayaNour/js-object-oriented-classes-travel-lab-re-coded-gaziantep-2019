@@ -12,8 +12,8 @@ class Driver{
 }
 
 class Route{
-  constructor(beginningLocation, startDate){
-    this.name = name;
-    this.startDate = new Date(startDate);
+  constructor(beginningLocation, endingLocation){
+    this.beginningLocation = beginningLocation;
+    this.endingLocation = endingLocation;
   }
 }
